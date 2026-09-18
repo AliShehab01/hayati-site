@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1E2130"/>
+      <stop offset="1" stop-color="#0E0F13"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F1D77A"/>
+      <stop offset="0.55" stop-color="#D4AF37"/>
+      <stop offset="1" stop-color="#A8861D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#D4AF37" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#D4AF37" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="224" fill="url(#bg)"/>
+  <rect x="14" y="14" width="996" height="996" rx="210" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="4"/>
+  <circle cx="512" cy="440" r="380" fill="url(#glow)"/>
+  <!-- thin champagne ring -->
+  <circle cx="512" cy="512" r="330" fill="none" stroke="#E8D5A3" stroke-opacity="0.35" stroke-width="6"/>
+  <!-- stem -->
+  <path d="M512 790 C 512 690, 500 600, 512 520" fill="none" stroke="url(#gold)" stroke-width="34" stroke-linecap="round"/>
+  <!-- left leaf -->
+  <path d="M506 600 C 380 600, 300 520, 290 400 C 410 400, 500 470, 506 600 Z" fill="url(#gold)"/>
+  <!-- right leaf -->
+  <path d="M518 540 C 520 400, 610 300, 740 280 C 740 420, 660 520, 518 540 Z" fill="url(#gold)"/>
+  <!-- leaf veins -->
+  <path d="M506 600 C 440 560, 380 500, 330 430" fill="none" stroke="#0E0F13" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round"/>
+  <path d="M518 540 C 580 470, 650 390, 710 320" fill="none" stroke="#0E0F13" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round"/>
+  <!-- ground line -->
+  <path d="M372 800 L 652 800" fill="none" stroke="#E8D5A3" stroke-opacity="0.6" stroke-width="14" stroke-linecap="round"/>
+</svg>
